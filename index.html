@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/X</title>
+    <link rel="icon" type="image/svg+xml" href="icons/ti.webp">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black text-white  ">
+
+    <div class="flex h-screen">
+
+        <!-- Left Sidebar -->
+      <div class="first w-[80px] md:w-[250px] h-screen overflow-y-auto">
+            <div class="logo invert flex justify-center">
+                <img src="logo.svg" alt="" class="w-8 h-8 mt-[23px] mr-[20px] mb-[12px] justify-center">
+            </div>
+
+            <div class="sidebar flex justify-end">
+               <ul class="ml-2 md:ml-22 space-y-2">
+
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/home.svg" class="w-6 h-6">
+                            <span class="hidden md:block"> Home</span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/Search.svg" class="w-6 h-6">
+                            <span class="hidden md:block"> Search</span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/notification.svg" class="w-6 h-6">
+                           <span class="hidden md:block">Notification</span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/inbox.svg" class="w-6 h-6">
+                            <span class="hidden md:block">Inbox </span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/grok.svg" class="w-6 h-6">
+                            <span class="hidden md:block"> Grok </span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/list.svg" class="w-6 h-6">
+                            <span class="hidden md:block"> Lists</span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/bookmark.svg" class="w-6 h-6">
+                            <span class="hidden md:block"> Bookmarks </span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/coomunites.svg" class="w-6 h-6">
+                            <span class="hidden md:block">Communities </span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/premium.svg" class="w-6 h-6">
+                            <span class="hidden md:block">Premium </span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/profile.svg" class="w-6 h-6">
+                            <span class="hidden md:block"> Profile</span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <span
+                            class="flex items-center gap-4 px-4 py-3 rounded-full hover:bg-gray-800 cursor-pointer transition w-fit">
+                            <img src="icons/more.svg" class="w-6 h-6">
+                            <span class="hidden md:block">More </span>
+                        </span>
+                    </li>
+
+                    <li class="pt-2">
+                        <button
+                            class="bg-blue-500 text-white px-12 py-3 rounded-full font-bold hover:bg-blue-600 transition">
+                            <span class="hidden md:block">Post</span>
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Main Feed -->
+      <div class="second flex-1 bg-black border-x border-white h-screen overflow-y-auto">
+            <div class="top flex sticky top-0 bg-black border-b border-gray-800 z-10">
+                <div
+                    class="foru w-1/2 flex justify-center font-bold py-4 hover:bg-gray-800 cursor-pointer transition-shadow ">
+                    For you</div>
+                <div
+                    class="folow w-1/2 flex justify-center font-bold py-4 hover:bg-gray-800 cursor-pointer transition-shadow ">
+                    Following</div>
+
+            </div>
+
+            <div class="happen border-b border-gray-800 ">
+                <div class="flex">
+                    <div><img src="icons/dp.png" class="w-14 h-12 rounded-full ml-4 m-3"></div>
+                    <div class="text-gray-500 text-xl m-4">
+                        <input type="text" placeholder="Whats Happening ?"
+                            class="bg-transparent outline-none border-none text-white">
+                    </div>
+                </div>
+
+                <div class="flex  items-center ">
+                    <div class="ic flex space-x-5 ml-14 mb-2 w-full ">
+                        <img src="icons/photo.svg" class="w-5 h-5 cursor-pointer" alt="">
+                        <img src="icons/gif.svg" class="w-5 h-5  cursor-pointer" alt="">
+                        <img src="icons/grok.svg" class="w-5 h-5  cursor-pointer" alt="">
+                        <img src="icons/emoji.svg" class="w-5 h-5  cursor-pointer" alt="">
+                        <img src="icons/map.svg" class="w-6 h-5   cursor-pointer" alt="">
+                        <img src="icons/flag.svg" class="w-5 h-5   cursor-pointer" alt="">
+                        <img src="icons/premium.svg" class="w-5 h-5  cursor-pointer" alt="">
+
+                    </div>
+                    <button class="ml-auto mr-7 mb-3 items-center  bg-gray-600 text-white px-3 py-2 rounded-full
+                        font-bold hover:bg-blue-600 transition">Post</button>
+                </div>
+
+
+            </div>
+            <div
+                class="show border-b border-gray-800 h-12 text-blue-500 flex items-center justify-center cursor-pointer underline">
+                Show 761 Posts</div>
+
+
+            <!-- // First Post -->
+
+            <div class="card1 flex justify-between ">
+                <div class="c1 flex">
+                    <div><img src="icons/rohit.png" class="w-12 h-12 rounded-full ml-4 m-3"></div>
+                    <h1 class="mt-3">Rohit</h1>
+                    <img src="icons/tick-03-stroke-rounded.svg" class="mb-7 ml-2 mt-3 w-4 h-5">
+                    <h1 class="mt-3 ml-3 text-gray-600">@ai.rohit 15h.</h1>
+                </div>
+                <img src="icons/grok.svg" class="justify-between mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+                <img src="icons/more.svg" class="ml-auto mr-7 mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+            </div>
+            <div class="about1 ml-5 border-b border-gray-800 pb-6">
+                <p>Instead of Scrooling Watch this short video to learn a simple and effective approach for solving DSA
+                    problems. It explains how to analyze a problem, identify the correct pattern, think of a brute-force
+                    solution, optimize it step by step, and build strong problem-solving skills. Whether you're
+                    preparing for coding interviews or practicing on LeetCode, these techniques can help you solve
+                    problems more efficiently and with greater confidence</p>
+                <div class="overflow-hidden rounded-2xl show border-b border-gray-800">
+                    <div class="w-[500px] h-[300px] overflow-hidden rounded-2xl border border-gray-700 mt-8">
+                        <video src="videos/dsa.mp4" controls class="w-full h-full object-cover">
+                        </video>
+                    </div>
+                    
+                </div>
+                <div class="flex space-x-5 cursor-pointer ">
+                        <div class="like"><span>💬</span><span>13</span></div>
+                        <div class="like"><span>🔁</span><span>5</span></div>
+                        <div class="like"><span>❤️</span><span>89</span></div>
+                        <div class="like"><span>📊</span><span>1.2k</span></div>
+                        
+                    </div>
+            </div>
+
+
+
+
+            <!-- 2nd Post -->
+
+            <div class="card2 flex mt-6">
+                <div class="c1 flex justify-between ">
+                    <div><img src="icons/y2.png" class="w-12 h-12 rounded-full ml-4 m-3"></div>
+                    <h1 class="mt-3">SunHoo</h1>
+                    <img src="icons/tick-03-stroke-rounded.svg" class="mb-7 ml-2 mt-3 w-4 h-5">
+                    <h1 class="mt-3 ml-3 text-gray-600">@ai.claude 10h.</h1>
+                </div>
+                <img src="icons/grok.svg" class="justify-between  mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+                <img src="icons/more.svg" class="ml-auto mr-7 mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+            </div>
+            <div class="about1 ml-5 border-b border-gray-800 pb-6">
+                <p>Watch this short video to learn the simple framework used by top programmers to solve DSA problems.
+                    Master the problem-solving process, recognize patterns faster, and improve your coding skills. Learn
+                    the approach that can help you solve up to 80% of DSA and LeetCode problems more effectively</p>
+
+                <div class="w-[500px] h-[300px] overflow-hidden rounded-2xl border border-gray-700 mt-8">
+                    <video src="videos/claude.mp4" controls class="w-full h-full object-cover ">
+                    </video>
+                </div>
+                <div class="flex space-x-5 cursor-pointer ">
+                        <div class="like"><span>💬</span><span>33</span></div>
+                        <div class="like"><span>🔁</span><span>9</span></div>
+                        <div class="like"><span>❤️</span><span>199</span></div>
+                        <div class="like"><span>📊</span><span>2k</span></div>
+                        
+                    </div>
+            </div>
+
+
+            <!-- 3rd Post -->
+
+
+            <div class="card2 flex mt-6">
+                <div class="c1 flex justify-between ">
+                    <div><img src="icons/a1.png" class="w-12 h-12 rounded-full ml-4 m-3"></div>
+                    <h1 class="mt-3">Aliza</h1>
+                    <img src="icons/tick-03-stroke-rounded.svg" class="mb-7 ml-2 mt-3 w-4 h-5">
+                    <h1 class="mt-3 ml-3 text-gray-600">@aliza.fan 12h.</h1>
+                </div>
+                <img src="icons/grok.svg" class="justify-between  mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+                <img src="icons/more.svg" class="ml-auto mr-7 mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+            </div>
+            <div class="about1 ml-5 border-b border-gray-800 pb-6">
+                <p>Writing clean and efficient code is not just about making a program work—it’s about making it easy to
+                    understand, maintain, and improve. Start by carefully understanding the problem, planning your
+                    approach, and choosing the right data structures and algorithms. Break complex problems into smaller
+                    functions, use meaningful variable names, and keep your code simple and organized. Always test your
+                    solution with different inputs, handle edge cases, and analyze its time and space complexity. By
+                    focusing on readability, logic, and consistency, you can write professional-quality code that is
+                    easier to debug and scale.
+                </p>
+
+                <div class="border-gray-700 mt-8">
+                    <img src="icons/cleanc.jpg">
+                </div>
+                <div class="flex space-x-5 cursor-pointer ">
+                        <div class="like"><span>💬</span><span>19</span></div>
+                        <div class="like"><span>🔁</span><span>3</span></div>
+                        <div class="like"><span>❤️</span><span>129</span></div>
+                        <div class="like"><span>📊</span><span>100</span></div>
+                        
+                    </div>
+            </div>
+
+            <!-- 4th card -->
+
+            <div class="card2 flex mt-6">
+                <div class="c1 flex justify-between ">
+                    <div><img src="icons/a1.png" class="w-12 h-12 rounded-full ml-4 m-3"></div>
+                    <h1 class="mt-3">Aliza</h1>
+                    <img src="icons/tick-03-stroke-rounded.svg" class="mb-7 ml-2 mt-3 w-4 h-5">
+                    <h1 class="mt-3 ml-3 text-gray-600">@aliza.fan 23h.</h1>
+                </div>
+                <img src="icons/grok.svg" class="justify-between  mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+                <img src="icons/more.svg" class="ml-auto mr-7 mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+            </div>
+            <div class="about1 ml-5 border-b border-gray-800 pb-6">
+                <p>I’ll release a COMPLETE PDF in 48h
+
+                    <br> 1. Trading with Claude AI
+                    <br> 2. Trading Prompts
+
+                    It’s free
+
+                    Who wants it?
+                </p>
+
+                <div class="border-gray-700 mt-8">
+                    <img src="icons/bad.png">
+                </div>
+                <div class="flex space-x-5 cursor-pointer ">
+                        <div class="like"><span>💬</span><span>3</span></div>
+                        <div class="like"><span>🔁</span><span>1</span></div>
+                        <div class="like"><span>❤️</span><span>8</span></div>
+                        <div class="like"><span>📊</span><span>2k</span></div>
+                        
+                    </div>
+            </div>
+
+
+            <!-- 5th card -->
+
+            <div class="card2 flex mt-6">
+                <div class="c1 flex justify-between ">
+                    <div><img src="icons/bookmark.svg" class="w-12 h-12 rounded-full ml-4 m-3"></div>
+                    <h1 class="mt-3">Ijoba</h1>
+                    <img src="icons/tick-03-stroke-rounded.svg" class="mb-7 ml-2 mt-3 w-4 h-5">
+                    <h1 class="mt-3 ml-3 text-gray-600">@badass.cash 9h.</h1>
+                </div>
+                <img src="icons/grok.svg" class="justify-between  mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+                <img src="icons/more.svg" class="ml-auto mr-7 mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+            </div>
+            <div class="about1 ml-5 border-b border-gray-800 pb-6">
+                <p>Which Animal u can want to delte from earth??
+                </p>
+
+                <div class="border-gray-700 mt-8">
+                    <img src="icons/p1.png">
+                </div>
+                <div class="flex space-x-5 cursor-pointer ">
+                        <div class="like"><span>💬</span><span>123</span></div>
+                        <div class="like"><span>🔁</span><span>50</span></div>
+                        <div class="like"><span>❤️</span><span>890</span></div>
+                        <div class="like"><span>📊</span><span>20k</span></div>
+                        
+                    </div>
+            </div>
+
+
+
+
+
+            <!-- 6th card -->
+
+            <div class="card2 flex mt-6">
+                <div class="c1 flex justify-between ">
+                    <div><img src="icons/premium.svg" class="w-12 h-12 rounded-full ml-4 m-3"></div>
+                    <h1 class="mt-3">Alia</h1>
+                    <img src="icons/tick-03-stroke-rounded.svg" class="mb-7 ml-2 mt-3 w-4 h-5">
+                    <h1 class="mt-3 ml-3 text-gray-600">@balia.cah 10h.</h1>
+                </div>
+                <img src="icons/grok.svg" class="justify-between  mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+                <img src="icons/more.svg" class="ml-auto mr-7 mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+            </div>
+            <div class="about1 ml-5 border-b border-gray-800 pb-6">
+                <p>Do watever You Want in ur Life!!!!!
+                </p>
+
+                <div class="border-gray-700 mt-8">
+                    <img src="icons/favorite_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg">
+                </div>
+                <div class="flex space-x-5 cursor-pointer ">
+                        <div class="like"><span>💬</span><span>30k</span></div>
+                        <div class="like"><span>🔁</span><span>20k</span></div>
+                        <div class="like"><span>❤️</span><span>19k</span></div>
+                        <div class="like"><span>📊</span><span>200k</span></div>
+                        
+                    </div>
+            </div>
+
+
+
+            <!-- 5th card -->
+
+            <div class="card2 flex mt-6">
+                <div class="c1 flex justify-between ">
+                    <div><img src="icons/ai-generated-a-dog-wearing-glasses-looks-at-a-laptop-in-front-animalgraphy-pics-photo.jpeg" class="w-12 h-12 rounded-full ml-4 m-3"></div>
+                    <h1 class="mt-3">Prateek</h1>
+                    <img src="icons/tick-03-stroke-rounded.svg" class="mb-7 ml-2 mt-3 w-4 h-5">
+                    <h1 class="mt-3 ml-3 text-gray-600">@badass.cash 9h.</h1>
+                </div>
+                <img src="icons/grok.svg" class="justify-between  mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+                <img src="icons/more.svg" class="ml-auto mr-7 mb-5 mt-3 items-center w-5 h-5 cursor-pointer">
+            </div>
+            <div class="about1 ml-5 border-b border-gray-800 pb-6">
+                <p>How to Learn Java Script In fastest Methods!!!!
+                </p>
+
+                <div class="border-gray-700 mt-8">
+                    <video  src="videos/lrnjsrct.mp4" controls class="w-full h-full object-cover"></video>
+                </div>
+                <div class="flex space-x-5 cursor-pointer">
+                        <div class="like"><span>💬</span><span>123</span></div>
+                        <div class="like"><span>🔁</span><span>50</span></div>
+                        <div class="like"><span>❤️</span><span>890</span></div>
+                        <div class="like"><span>📊</span><span>20k</span></div>
+                        
+                    </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Right Panel -->
+         <div class="third hidden lg:block w-1/3 h-screen overflow-y-auto">
+
+
+            <div class="search p-3">
+
+                <input type="text" class=" w-[350px] rounded-full bg-gray-900 text-white px-8 py-3"
+                    placeholder="Search..">
+            </div>
+
+
+            <!-- This is For Whats Happening Here Sections -->
+
+            <div class="whats m-3 bg-gray-900 w-[350px] rounded-3xl px-5 py-3 space-y-6">
+                <h1 class="text-xl font-bold ">What's Happening</h1>
+
+                <div class="item  space-y-5 cursor-pointer ">
+                    <div>
+                        <h1 class="text-sm text-gray-400">Trending in India</h1>
+                        <h1 class="text-xl">#News18IndiaDeshKiPathshala</h1>
+                    </div>
+                    <div>
+                        <h1 class="text-sm text-gray-400">Trending</h1>
+                        <h1 class="text-xl">The View</h1>
+                    </div>
+                    <div>
+                        <h1 class="text-sm text-gray-400">Sports Trending</h1>
+                        <h1 class="text-xl">#RonaldoOnZEE5</h1>
+                    </div>
+                    <h1 class="text-l text-blue-500 ">Show more</h1>
+                </div>
+
+            </div>
+
+
+
+            <!-- This is For Who to Follow -->
+
+            <div class="follow m-3 bg-gray-900 w-[350px] rounded-3xl px-5 py-3 space-y-6">
+                <h1 class="text-xl font-bold ">Who to Follow</h1>
+
+                <div class="influencer1">
+                    <div class="flex items-center">
+                        <img src="icons/forbes.jpg" class="w-12 h-12 rounded-full">
+
+                        <div class="ml-3">
+                            <div class="flex items-center gap-1">
+                                <h1 class="font-bold">Forbes</h1>
+                                <img src="icons/tick-03-stroke-rounded.svg" class="w-5 h-5">
+                            </div>
+
+                            <h1 class="text-sm text-gray-400">@Forbes</h1>
+                        </div>
+
+                        <button class="ml-auto bg-white text-black px-4 py-2 rounded-full font-bold">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="influencer2">
+                    <div class="flex items-center">
+                        <img src="icons/newy.png" class="w-12 h-12 rounded-full">
+
+                        <div class="ml-3">
+                            <div class="flex items-center gap-1">
+                                <h1 class="font-bold">Newzy</h1>
+                                <img src="icons/tick-03-stroke-rounded.svg" class="w-5 h-5">
+                            </div>
+
+                            <h1 class="text-sm text-gray-400">@newzy</h1>
+                        </div>
+
+                        <button class="ml-auto bg-white text-black px-4 py-2 rounded-full font-bold">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="influencer3">
+                    <div class="flex items-center">
+                        <img src="icons/newchannel.jpg" class="w-12 h-12 rounded-full">
+
+                        <div class="ml-3">
+                            <div class="flex items-center gap-1">
+                                <h1 class="font-bold">News Channel</h1>
+                                <img src="icons/tick-03-stroke-rounded.svg" class="w-5 h-5">
+                            </div>
+
+                            <h1 class="text-sm text-gray-400">@newsIndia</h1>
+                        </div>
+
+                        <button class="ml-auto bg-white text-black px-4 py-2 rounded-full font-bold">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Policy -->
+            <div
+                class="policy text-xs  text-gray-400 flex flex-wrap m-8 pl-2 cursor-pointer hover:underline gap-x-3 gap-y-3">
+                <span>Terms of Service</span>
+                <span> Privacy Policy</span>
+                <span>Cookie Policy</span>
+                <span>Accessibility</span>
+                <span>Ads</span>
+                <span> info </span>
+                <span> More©2026 X Corp.</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+</body>
+
+</html>

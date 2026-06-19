@@ -1,0 +1,9 @@
+.first::-webkit-scrollbar {
+    display: none;
+}
+.second::-webkit-scrollbar {
+    display: none;
+}
+.third::-webkit-scrollbar {
+    display: none;
+}
